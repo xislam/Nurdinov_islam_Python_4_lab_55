@@ -35,7 +35,7 @@ class Category(models.Model):
 
 
 class Tag(models.Model):
-    name = models.CharField(max_length=31, verbose_name='Тег')
+    name = models.CharField(max_length=31, verbose_name='teg')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Время создания')
 
     def __str__(self):
